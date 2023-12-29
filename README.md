@@ -1,4 +1,4 @@
-# Code de Conduite pour l'Utilisation de Git par l'équipe TeamAT
+# Introduction pour l'Utilisation de Git par l'équipe TeamAT
 
 ## Introduction générale à Git
 ### Comprendre les concepts de base
