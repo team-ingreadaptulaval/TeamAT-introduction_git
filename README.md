@@ -83,5 +83,3 @@ Les noms de répertoires manquent d'uniformité, mais les conventions actuelles 
 
 
 ---
-
-Généré à partir de chatGPT 3.5 et modifié.
