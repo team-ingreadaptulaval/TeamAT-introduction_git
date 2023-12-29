@@ -1,19 +1,45 @@
 # TeamAT-Code_de_conduite_git
 Code de conduite d'utilisation de git 
 
-# Guide d'utilisation du Répertoire GitHub
+# Introduction générale à git
+## Comprendre les concepts de base
+En 100 secondes : [https://www.youtube.com/watch?v=HkdAHXoRtos](https://www.youtube.com/watch?v=hwP7WQkmECE)
 
-Bienvenue dans le répertoire GitHub de notre établissement de recherche en développement de produits en réadaptation. Ce guide détaillé vous aidera à naviguer efficacement dans ce dépôt.
+En 12 minutes : [https://www.youtube.com/watch?v=HkdAHXoRtos](https://www.youtube.com/watch?v=HkdAHXoRtos)
+
+## Utiliser git sans lignes de commande
+Git hub desktop ou git kraken sont des logiciel de gestion locale de répertoire git, il sont une alternatives au lignes de commandes. Utilisés par plusieurs au laboratoire.
+https://desktop.github.com/
+
+# Utiliser git convenablement
+
+Bienvenue dans le répertoire GitHub de notre établissement de recherche en développement de produits en réadaptation. Ce guide détaillé vous aidera à naviguer et utiliser efficacement dans ce dépôt.
+
+## Conventions de message de Commit
+
+Afin de rendre la tracabilité de l'historique de version claire, chaque nom et message de commit doit être un indicatif clair des modifications ajoutées. Évitez les résumés vagues, mais visez les messages précis et bref.
+
+### Convention de nom de commit avancée
+- **work** : Pour des modifications, développement général du projet
+- **fix** : Pour une correction de bogue
+- **docs** : Pour une mise à jour de la documentation
+- **style** : Pour des modifications mineures n'affectant pas la logique du code
+- **clean** : Pour les modification mineures qui affectent l'organisation du répertoire
+
+https://cbea.ms/git-commit/
 
 ## Branches
 
-### Branche principale (`main`)
+### Branche principale (Default ou Main)
 
-La branche principale, nommée "main", est la branche par défaut. Les utilisateurs doivent s'assurer que leurs contributions respectent les normes de qualité avant de proposer des modifications à cette branche.
+La branche principale, est la branche par défaut la plus à jour de la dernière version déployée.
 
-### Branches de fonctionnalités (`feature branches`)
+### Branches de développement
 
-Lorsqu'une nouvelle fonctionnalité est envisagée, créez une branche dédiée à partir de la branche principale. Le nom de la branche doit refléter clairement la nature de la fonctionnalité. Assurez-vous de fusionner régulièrement avec la branche principale pour intégrer les dernières modifications.
+Lorsqu'une nouvelle fonctionnalité est envisagée, créez une branche dédiée à partir de la branche principale. Le nom de la branche doit refléter clairement la nature de la fonctionnalité par exemple ('dev_V2B'). Assurez-vous de fusionner régulièrement avec la branche principale pour intégrer les dernières modifications. Fermez les branches qui vous avez ouvertes qui ne sont plus utilisés.
+Lorsque le travail de modification est terminé, la branche est mergé à la branche par défaut et supprimée, le tag et le release est la manière de retrouver ces versions pour une consultation ultérieure.
+
+Il faut maintenir une quantité minimale de branche pour éviter de s'y perdre, utilisez les tags pour marquer les points importants dans l'historique de développement du projet.
 
 ## Tags
 
@@ -21,23 +47,21 @@ Utilisez des tags pour marquer des jalons importants du projet, comme des versio
 
 ## Releases
 
-Chaque release doit être accompagnée d'une documentation claire des changements apportés. Incluez des instructions détaillées sur la mise à jour et la configuration post-release.
+Les release sont associé à un tag pour définir cliarement une version du projet qui a été déployée par exemple les release (V1A, V1B, V2B). Chaque release doit être accompagnée d'une documentation claire des changements apportés. Incluez des instructions détaillées sur la mise à jour et la configuration post-release.
 
 ## Code de conduite
 
-Notre code de conduite vise à garantir un environnement respectueux et professionnel. Les contributeurs doivent s'engager à maintenir un dialogue constructif et à traiter toutes les personnes avec équité.
+Veuillez vous assurer de rendre vos contributions au répertoire conscises.
 
-## Contributions
+## Issues
 
-Avant de soumettre une demande de fusion, assurez-vous que votre code est accompagné de tests appropriés. Les commentaires détaillés sont appréciés, surtout pour des fonctionnalités complexes.
+Dans certains projets, l'onglet issue est utilisé pour faire un suivi des problèmes et des modifications à apporter au projet. Il est possible de s'en servir en cours de développement pour planifier une liste d'étapes de développement de la même manière qu'un to-do list détaillé. Il est quand même important d'utiliser le clickup pour spécifier la progression globale du projet.
+
+## Contre indication
+![alt text](https://cbea.ms/content/images/size/w2000/2021/01/git_commit_2x.png)
+
+
 
 ---
 
-![Branche principale](url_image_main)
-![Branche de fonctionnalités](url_image_feature_branch)
-![Tags](url_image_tags)
-![Releases](url_image_releases)
-![Code de conduite](url_image_code_of_conduct)
-![Contributions](url_image_contributions)
-
-Généré par chatGPT 3.5 et modifié.
+Généré à partir de chatGPT 3.5 et modifié.
