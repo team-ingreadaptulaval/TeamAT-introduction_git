@@ -12,9 +12,17 @@ Explorez des alternatives conviviales comme GitHub Desktop ou Git Kraken pour un
 
 Bienvenue dans le répertoire GitHub de notre établissement de recherche en développement de produits en réadaptation. Ce guide détaillé vous aidera à naviguer et à utiliser efficacement ce dépôt.
 
-## Conventions de message de Commit
+## Conventions de message
 
-Maintenez la clarté dans l'historique des versions en utilisant des messages de commit informatifs. Suivez la [convention de nom de commit avancée](https://cbea.ms/git-commit/) pour des indications claires sur le type de modification.
+Maintenez la clarté dans l'historique des versions en utilisant des messages de commit informatifs. Consultez la [convention de nom de commit avancée](https://cbea.ms/git-commit/) pour des indications claires sur le type de modification.
+
+### Exemple de convention de nom de commit
+Cette convention n'est pas obligatoire, mais conseillée.
+- **work** : Pour des modifications, développement général du projet
+- **fix** : Pour une correction de bogue
+- **docs** : Pour une mise à jour de la documentation
+- **style** : Pour des modifications mineures n'affectant pas la logique du code
+- **clean** : Pour les modification mineures qui affectent l'organisation du répertoire
 
 ## Branches
 
