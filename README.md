@@ -57,6 +57,26 @@ Veuillez vous assurer de rendre vos contributions au répertoire conscises.
 
 Dans certains projets, l'onglet issue est utilisé pour faire un suivi des problèmes et des modifications à apporter au projet. Il est possible de s'en servir en cours de développement pour planifier une liste d'étapes de développement de la même manière qu'un to-do list détaillé. Il est quand même important d'utiliser le clickup pour spécifier la progression globale du projet.
 
+# Noms de répertoire
+Les noms de répertoires manquent d'uniformité, mais les conventions actuelles sont les suivantes:
+
+## Préfixes
+
+- TeamAt_H : 
+- TeamAt_P :
+- TeamAt_L :
+- TeamAt_B :
+- AT- : Adaptative Technologies (Suffixe simplifié)
+
+
+## suffixes
+
+- -PCB : Fichiers de modélisation de PCB
+- -FW : Micrologiciel embarqué (Firmware)
+- -CAD : Fichiers de modélisation 3D
+
+
+
 ## Contre indication
 ![alt text](https://cbea.ms/content/images/size/w2000/2021/01/git_commit_2x.png)
 
