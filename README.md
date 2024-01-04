@@ -1,4 +1,5 @@
 # Introduction pour l'Utilisation de Git par l'équipe TeamAT
+# Instructions en cours de rédaction
 
 ## Introduction générale à Git
 ### Comprendre les concepts de base
