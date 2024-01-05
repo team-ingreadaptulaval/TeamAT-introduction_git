@@ -18,13 +18,16 @@ Explorez des interfaces sans lignes de commande comme GitHub Desktop ou Git Krak
 
 Maintenez la clarté dans l'historique des versions en utilisant des messages de commit informatifs. Consultez la [convention de nom de commit avancée](https://cbea.ms/git-commit/) pour des indications claires sur le type de modification.
 
-### Exemple de convention de nom de commit
+### Exemple de convention de nom de commit avancée
 Cette convention n'est pas obligatoire, mais conseillée.
 - **work** : Pour des modifications, développement général du projet
 - **fix** : Pour une correction de bogue
 - **docs** : Pour une mise à jour de la documentation
 - **style** : Pour des modifications mineures n'affectant pas la logique du code
 - **clean** : Pour les modification mineures qui affectent l'organisation du répertoire
+- 
+### Contre indication
+<img src="https://cbea.ms/content/images/size/w2000/2021/01/git_commit_2x.png" width=30%>
 
 ## Branches
 
@@ -42,18 +45,16 @@ Utilisez des tags pour marquer des jalons importants du projet. Par exemple le n
 
 ## Releases (Version stables du projet)
 
-Associez les releases à des tags pour définir clairement les versions déployées (ex: V1A, V1B, V2B). Documentez les changements. Les release sont des versions du projets du projet qui sont stables, par exemple pour les PCB, il se trouve les fichiers de production prêt à commander sur JLCPCB pour une version donnée.
+Associez les releases à des tags pour définir clairement les versions déployées (ex: V1A, V1B, V2B). Documentez les changements dans la description, tel que la liste des nouvelles fonctionnalités. Les release sont des versions du projets du projet qui sont stables, par exemple pour les PCB, il se trouve les fichiers de production prêt à commander sur JLCPCB pour une version donnée.
 
 ## Conduite générale
 
-Organisez les répertoires de manière concise et organisée.
+Organisez les répertoires de manière concise et organisée. Nommez clairement vos branches, vos nom de commit et les nom de répertoires. Ajotuez une description au répertories. Faites des release sur les version stables du projet. Travaillez proprement et professionnellement. Demandez de l'aide dès que nécéssaire et informez vous sur les bonnes pratiques.
 
 ## Issues
 
-Utilisez l'onglet "Issues" pour suivre les problèmes et les modifications nécessaires. Utilisez ClickUp pour la progression globale du projet.
+Utilisez l'onglet "Issues" pour suivre les problèmes et les modifications nécessaires à apporter au projet. Cependant utilisez ClickUp pour la progression globale du projet.
 
-## Contre indication
-![alt text](https://cbea.ms/content/images/size/w2000/2021/01/git_commit_2x.png)
 
 # Noms de répertoire
 
