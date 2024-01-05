@@ -1,17 +1,18 @@
 # Introduction pour l'Utilisation de Git par l'équipe TeamAT
 # ->Instructions en cours de rédaction<-
 
-## Introduction générale à Git
-### Comprendre les concepts de base
-- Regardez [cette vidéo de 100 secondes](https://www.youtube.com/watch?v=hwP7WQkmECE) pour une introduction rapide.
-- Pour une compréhension approfondie, investissez 12 minutes [ici](https://www.youtube.com/watch?v=HkdAHXoRtos).
-
-### Utiliser Git sans lignes de commande
-Explorez des alternatives conviviales comme GitHub Desktop ou Git Kraken pour une gestion locale simplifiée du répertoire Git. Ces outils sont largement utilisés au laboratoire. [GitHub Desktop](https://desktop.github.com/)
-
 # Utilisation de Git
 
-Bienvenue dans le répertoire GitHub de notre établissement de recherche en développement de produits en réadaptation. Ce guide détaillé vous aidera à naviguer et à utiliser efficacement ce dépôt.
+Bienvenue dans le répertoire GitHub. Ce guide simplifié vous aidera à naviguer et à utiliser efficacement ce dépôt.
+
+## Introduction générale à Git
+### Comprendre les concepts de base
+- Pour une introduction, en 100 seconde [ici](https://www.youtube.com/watch?v=hwP7WQkmECE).
+- Pour une compréhension approfondie, en 12 minutes [ici](https://www.youtube.com/watch?v=HkdAHXoRtos).
+
+### Utiliser Git sans lignes de commande
+Explorez des interfaces sans lignes de commande comme GitHub Desktop ou Git Kraken pour une gestion locale simplifiée du répertoire Git. Ces outils sont largement utilisés au laboratoire. [GitHub Desktop](https://desktop.github.com/)
+
 
 ## Conventions de message
 
@@ -32,18 +33,16 @@ Cette convention n'est pas obligatoire, mais conseillée.
 La branche principale est la version par défaut la plus à jour de la dernière version déployée.
 
 ### Branches de développement
-
-- Créez des branches spécifiques pour les nouvelles fonctionnalités.
-- Fusionnez régulièrement avec la branche principale.
-- Fermez les branches obsolètes après utilisation.
+Une nouvelle branche est ajoutée au projet pour ajouter des fonctionnalités au projet, lorsque les modifications sont complétés, cette branche est fusionnée à la branche principale ou devient celle par défaut.
+Il est important de fermer les branches obsolètes après utilisation.
 
 ## Tags
 
-Utilisez des tags pour marquer des jalons importants du projet.
+Utilisez des tags pour marquer des jalons importants du projet. Par exemple le nom d'une version stable (Ex: V2C, V3C-Commande, V2B-PreProduction)
 
 ## Releases
 
-Associez les releases à des tags pour définir clairement les versions déployées (ex: V1A, V1B, V2B). Documentez les changements et incluez des instructions post-release.
+Associez les releases à des tags pour définir clairement les versions déployées (ex: V1A, V1B, V2B). Documentez les changements.
 
 ## Conduite générale
 
