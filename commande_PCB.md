@@ -2,6 +2,8 @@
 ## Introduction
 Les PCB sont concus sur KiCAD et les PCB sont fabriqués par JLCPCB.
 
+Utilisez le compte JLCPCB du lab pour toutes les commandes.
+
 # Commande de PCB sur JLCPCB 
 Les PCB sont commandés à [cette adresse](https://cart.jlcpcb.com/quote/). 
 ## Importer les fichiers gerber
@@ -12,7 +14,7 @@ Déposez le fichier .zip qui se trouve dans le fichier de production.
 ## Options à changer
 Les options importantes à vérifier sont les suivantes, les autres peuvent être laissés tel que par défaut :
 ### Different design
-Pour les projets dont plusieurs PCB sont combinés sur un même PCB, il faut modifier l'option different design correspondant au nombre de PCB. Également mettre Panel by Customer.
+Pour les projets dont plusieurs PCB sont combinés sur un même PCB, il faut modifier l'option different design correspondant au nombre de PCB. Également mettre Panel by Customer dans ce cas.
 
 ![image](https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/d46f6d46-39ba-41d0-a7cc-327f144e4c67)
 
