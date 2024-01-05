@@ -47,7 +47,7 @@ Les fichiers sont générés dans un dossier nommée production sur le répertoi
 ### Génération manuelle
 Les fichiers de production peuvent être générés manuellement, il faut suivre le [tutoriel suivant](https://jlcpcb.com/help/article/362-how-to-generate-gerber-and-drill-files-in-kicad-7). Cependant il est bien plus simple et rapide d'utiliser l'extension.
 
-## Vérification après génération des ficheers de production
+## Vérification après la génération des fichiers de production
 Il est bon de revérifier les erreurs avec le DRC cheker dans l'éditeur de PCB.
 ### Inspection des fichiers de production manuelle
 Pour s'assurer que les fichiers de production ont été bien générés, il est recommandé de les ouvrir dans le gerber viewer dans kicad. 
@@ -55,7 +55,33 @@ Pour s'assurer que les fichiers de production ont été bien générés, il est 
 - Vérifiez chaque couches individuellement s'ils correspondent avec les fichiers de conception.
 - Vérifiez si les couches sont alignées correctement.
 
-# 3 - Commande de PCB
-Les fichiers sont commandés à [cette adresse](https://cart.jlcpcb.com/quote/). 
+# 3 - Commande de PCB sur JLCPCB 
+Les PCB sont commandés à [cette adresse](https://cart.jlcpcb.com/quote/). 
 ## Importer les fichiers gerber
+Déposez le fichier .zip qui se trouve dans le fichier de production.
+<img src="https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/bc392ece-d7ea-43ac-8cea-ca3d76d99172" width=80%>
+
+## Options à changer
+Les options importantes à vérifier sont les suivantes, les autres peuvent être laissés tel que par défaut :
+### Different design
+Pour les projets dont plusieurs PCB sont sur
+
+![image](https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/d46f6d46-39ba-41d0-a7cc-327f144e4c67)
+
+### Épaisseur :
+1. Laisser par défaut à 1.6 pour la plupart des projets.
+2. Mettre à 1.0 pour les projets miniatures tels que l'ergowatch nano ou mini   
+###Surface Finish :
+1. Prendre leadFree HASL (fini cuivre étamé étain sans plomb); sinon
+2. ENIG(plaqué OR) pour les PCB ayant des puces intégrés avec des pads sous les pièces. Cela assure un meilleur fini de surface et une quantité d'étain plus uniforme. Toujours utiliser pour les microcontrolleurs tel que le STM32 ou l'IMU de l'ergowatch.
+<img src="https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/0bce9e15-e60b-440e-bacc-9a2e6f5ef7aa" width=50%>
+### Confirm production file
+Demander la confirmation de fichiers de production. Cette option permet de demander une validation de notre coté suite au pré-traitement de nos fichiers avant de passer à la production.
+<img src="https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/b9cce73b-9ebe-4f07-9333-352867278836" width=50%>
+### Remove order Number 
+Préférablement choisir Yes.
+
+
+
+
 
