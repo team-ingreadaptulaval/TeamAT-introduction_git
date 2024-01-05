@@ -25,7 +25,7 @@ Cette convention n'est pas obligatoire, mais conseillée.
 - **docs** : Pour une mise à jour de la documentation
 - **style** : Pour des modifications mineures n'affectant pas la logique du code
 - **clean** : Pour les modification mineures qui affectent l'organisation du répertoire
-- 
+
 ### Contre indication
 <img src="https://cbea.ms/content/images/size/w2000/2021/01/git_commit_2x.png" width=30%>
 
