@@ -6,7 +6,7 @@ Guide de bonnes pratiques.
 
 Bienvenue dans le répertoire GitHub. Ce guide simplifié vous aidera à naviguer et à utiliser efficacement ce dépôt.
 
-## Introduction générale à Git
+## Introduction à Git
 ### Comprendre les concepts de base
 - Pour une introduction, en 100 seconde [ici](https://www.youtube.com/watch?v=hwP7WQkmECE).
 - Pour une compréhension approfondie, en 12 minutes [ici](https://www.youtube.com/watch?v=HkdAHXoRtos).
