@@ -1,4 +1,5 @@
 # Introduction pour l'Utilisation de Git par l'équipe TeamAT
+Guide de bonnes pratiques.
 # ->Instructions en cours de rédaction<-
 
 # Utilisation de Git
