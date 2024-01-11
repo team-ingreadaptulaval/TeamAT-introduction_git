@@ -38,8 +38,7 @@ La branche principale est la version par défaut la plus à jour de la dernière
 
 ### Branches de développement
 Une nouvelle branche est ajoutée au projet pour ajouter des fonctionnalités au projet, lorsque les modifications sont complétés, cette branche est fusionnée à la branche principale ou devient celle par défaut.
-Il est important de fermer les branches obsolètes après utilisation.
-
+Il est important de fermer les branches obsolètes après utilisation. Lorsqu'une une branche est supprimée, cela conserve les commits. Il est donc possible de retrouver ces commits à partir des tags.
 ## Tags
 
 Utilisez des tags pour marquer des jalons importants du projet. Par exemple le nom d'une version stable (Ex: V2C, V3C-Commande, V2B-PreProduction)
@@ -47,6 +46,9 @@ Utilisez des tags pour marquer des jalons importants du projet. Par exemple le n
 ## Releases (Version stables du projet)
 
 Associez les releases à des tags pour définir clairement les versions déployées (ex: V1A, V1B, V2B). Documentez les changements dans la description, tel que la liste des nouvelles fonctionnalités. Les release sont des versions du projets du projet qui sont stables, par exemple pour les PCB, il se trouve les fichiers de production prêt à commander sur JLCPCB pour une version donnée.
+
+![image](https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/6538580e-4e94-4791-84b3-db5176036e20)
+
 
 ## Principes de base
 
