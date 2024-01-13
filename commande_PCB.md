@@ -28,6 +28,12 @@ Pour les projets dont plusieurs PCB sont combinés sur un même PCB, il faut mod
 
 <img src="https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/0bce9e15-e60b-440e-bacc-9a2e6f5ef7aa" width=50%>
 
+#### Exemple de cas de défectuosité - Évitez ROHS, préférez ENIG pour les tolérances plus sérrés et pads sous les pièces.
+Lors d'une commande antérieure de l'ergowatch nano, le revêtement de surface ROHS a été appliqué. Cependant, une répartition inégale de l'étain peut entraîner des excès de soudure à certains endroits. Dans le cas du microcontrôleur comportant des pads sous la puce, un excès d'étain s'est répandu sur les côtés, provoquant un court-circuit sur le châssis métallique du module.
+
+<img src="https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/fa66e222-7db0-41d2-9f88-7ebacfa57a7e" width=50%>
+
+
 ### Confirm production file
 Demander la confirmation de fichiers de production. Cette option permet de demander une validation de notre coté suite au pré-traitement de nos fichiers avant de passer à la production.
 
