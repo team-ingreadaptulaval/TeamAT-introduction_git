@@ -59,7 +59,7 @@ Il existes plusieurs interfaces sans lignes de commande comme GitHub Desktop ou 
 
 ​	[gitkraken](https://www.gitkraken.com/)
 
-​	[TortoiseGit](https://tortoisegit.org/)  -> [Instructions d'utilisation teamAT](https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/blob/main/installer_tortoise.md)
+​	[TortoiseGit](https://tortoisegit.org/)  -> [Instructions d'installation teamAT](https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/blob/main/installer_tortoise.md)
 
 
 # Utilisation de Git 
