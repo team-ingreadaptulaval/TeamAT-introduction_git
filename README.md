@@ -1,5 +1,7 @@
 # Introduction pour l'Utilisation de Git par l'équipe TeamAT
-Introduction et Guide de bonnes pratiques. N'hésitez pas à demander assistance au membres TeamAT. Pour toute clarification, se référer aux auteurs du répertoire.
+Introduction et Guide de bonnes pratiques. 
+
+Pour toute clarification, se référer aux auteurs du répertoire. Également pour utiliser git, n'hésitez pas à demander assistance aux membres TeamAT.
 
 # Introduction à Git
 
@@ -133,18 +135,17 @@ Associez les releases à des tags pour définir clairement les versions déploy�
 
 ![img](images\295970020-6538580e-4e94-4791-84b3-db5176036e20.png)
 
-<img src="https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/8ab0a03f-31a2-4640-a71a-f1ee05e2e9ea" width='80%'>
+<img src="https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/8ab0a03f-31a2-4640-a71a-f1ee05e2e9ea" width='80%'>.
+
 ​*Les releases sont des version de commits stables. En fonction du type de projet, ils incluent des les fichiers de production, les fichiers binaire, les exécutables, les STL, etc.*
 
 <img src="https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/515af705-16bf-4e04-b235-2fb8a1ef5f43" width='50%'>
+
 *Chaque release inclus une description des nouveautés de la version déployée.*
-
-
 
 ### Issues
 
 Utilisez l'onglet "Issues" pour suivre les problèmes et les modifications nécessaires à apporter au projet. Cependant utilisez ClickUp pour la progression globale du projet.
-
 
 ## Noms de répertoire
 
