@@ -3,8 +3,6 @@ Introduction et Guide de bonnes pratiques.
 
 # Introduction à Git
 
-Bienvenue dans le répertoire GitHub. Ce guide simplifié vous aidera à naviguer et à utiliser efficacement ce dépôt.
-
 ## Qu'est-ce que Git?
 
 Git est un système de contrôle de version qui facilite la gestion collaborative des projets informatiques. 
@@ -30,8 +28,6 @@ Git est donc un outil essentiel pour la collaboration efficace, le partage de co
 - **Conflict:** Un problème lors de la fusion nécessitant une résolution manuelle.
 - **Log:** L'historique des commits, affichant les modifications apportées au fil du temps.
 
-
-
 #### Voici quelques vidéos intéressantes.
 
 **Note:** Il existe deux façon interagir avec Git, avec des lignes de commandes ou avec des interfaces graphiques.  Les interfaces graphiques sont plus simple à utiliser alors ne soyex pas intimidés par les vidéos suivantes, concentrez vous sur les concept, vous n'aurais pas à retenir toutes les commandes manuelles. :)
@@ -48,8 +44,6 @@ Git est donc un outil essentiel pour la collaboration efficace, le partage de co
 
 1. Télécharger Git: https://git-scm.com/
 2. Suivre les instructions, utiliser les paramètres par défaut suggérés.
-
-
 
 ## Interfaces Git (pour utiliser Git sans lignes de commande)
 
@@ -68,7 +62,7 @@ Il existes plusieurs interfaces sans lignes de commande comme GitHub Desktop ou 
 
 Le flux de travail dans Git suit généralement les étapes suivantes :
 
-1. **Clonage (Clone):** Dupliquer un dépôt existant ( sur GitHub par exemple) sur votre machine locale.
+1. **Clonage (Clone):** Dupliquer un dépôt existant ( sur GitHub par exemple) sur votre machine locale. Cela crée une copie du répertoire sur votre machine que vous pouvez modifier localement.
 
 2. **Création de Branche (Branch):** Développer de nouvelles fonctionnalités ou résoudre des problèmes sur une branche distincte pour éviter d'affecter le code principal.
 
@@ -87,8 +81,85 @@ Le flux de travail dans Git suit généralement les étapes suivantes :
 Ce flux de travail permet une collaboration efficace, le suivi des modifications et la gestion des versions dans le développement de logiciels.
 
 
+# Bonnes pratique
 
-Voici un petit aide-mémoire / récapitulatif du flux de travail GIT dans une utilisation normale.
+Organisez les répertoires de manière concise et organisée. Nommez clairement vos branches, vos nom de commit et les nom de répertoires. Ajoutez une description aux répertories. Faites des release sur les version stables du projet. Travaillez proprement et professionnellement. Demandez de l'aide dès que nécéssaire et assurez-vous de connaître les méthodes professionnelle d'utilisation de git.
+
+## Conventions de message
+
+Maintenez la clarté dans l'historique des versions en utilisant des messages de commit informatifs. Consultez la [convention de nom de commit avancée](https://cbea.ms/git-commit/) pour des indications claires sur le type de modification.
+
+### Exemple de convention de nom de commit avancée
+Cette convention n'est pas obligatoire, mais conseillée.
+- **work** : Pour des modifications, développement général du projet
+- **fix** : Pour une correction de bogue
+- **docs** : Pour une mise à jour de la documentation
+- **style** : Pour des modifications mineures n'affectant pas la logique du code
+- **clean** : Pour les modification mineures qui affectent l'organisation du répertoire
+
+### Contre indication
+<img src="https://cbea.ms/content/images/size/w2000/2021/01/git_commit_2x.png" width=30%>
+
+## Utilisation des Branches
+
+### Branche principale (Default ou Main)
+
+La branche principale est la version par défaut la plus à jour de la dernière version déployée. Dans un monde idéale, on ne travaille pas directement dans la branche principale.
+
+### Branches de développement
+Une nouvelle branche est ajoutée au projet pour ajouter des fonctionnalités au projet, lorsque les modifications sont complétés, cette branche est fusionnée à la branche principale ou devient celle par défaut.
+
+#### Note sur les branches inutilisés
+Fermez vos propres branches inutilisés et obsolètes en les supprimant. Par contre créez un tag pour conserver la version si jugé nécéssaire. La suppression de la branche conserve les commits, facilitant la récupération à partir du tag. Cette pratique maintient la clarté en éliminant les branches inutiles. Il peut arriver que le développement dans une branche diverge à des fins de tests. Par contre il faut éviter de les conserver pour rien.
+
+
+<img src="images/gitflow.png" alt="Gitflow workflow" style="zoom:67%;" />
+
+​		*source: https://buddy.works/blog/5-types-of-git-workflows*
+
+
+
+## Tags (Ensembles des jalons du projet)
+
+Utilisez des tags pour marquer des jalons importants du projet. Par exemple le nom d'une version stable (Ex: V2C, V3C-Commande, V2B-PreProduction)
+
+## Releases (Version stables du projet, référence à un tag)
+
+Associez les releases à des tags pour définir clairement les versions déployées (ex: V1A, V1B, V2B). Documentez les changements dans la description, tel que la liste des nouvelles fonctionnalités. Les release sont des versions du projets du projet qui sont stables, par exemple pour les PCB, il se trouve les fichiers de production prêt à commander sur JLCPCB pour une version donnée.
+
+![img](images\295970020-6538580e-4e94-4791-84b3-db5176036e20.png)
+
+<img src="https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/8ab0a03f-31a2-4640-a71a-f1ee05e2e9ea" width='80%'>
+<img src="https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/515af705-16bf-4e04-b235-2fb8a1ef5f43" width='50%'>
+
+
+## Issues
+
+Utilisez l'onglet "Issues" pour suivre les problèmes et les modifications nécessaires à apporter au projet. Cependant utilisez ClickUp pour la progression globale du projet.
+
+
+# Noms de répertoire
+
+## Préfixes
+
+- TeamAt_H : Hardware 
+- TeamAt_P : Platform
+- TeamAt_L : Librairies
+- TeamAt_B : Basic. codes de base
+- AT- : Assistive Technologies (Suffixe simplifié)
+
+## Suffixes
+
+- -PCB : Fichiers de modélisation de PCB
+- -FW : Micrologiciel embarqué (Firmware)
+- -SW : Logiciel ordinateur
+- -CAD : Fichiers de modélisation 3D
+
+# Mise en pratique - Guide d'introduction à Tortoise
+
+[Instructions d'installation teamAT](https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/blob/main/installer_tortoise.md)
+
+Voici un petit aide-mémoire / récapitulatif du flux de travail GIT dans une utilisation normale avec tortoise.
 
 ​                                                        <img src="images\image-20240205131023053.png" alt="image-20240205131023053" style="zoom:67%;" />                           
 
@@ -279,79 +350,3 @@ https://www.atlassian.com/fr/git/tutorials/using-branches/git-checkout
 https://www.atlassian.com/fr/git/tutorials/using-branches/git-merge
 
 
-
-# Bonnes pratique
-
-
-
-## Conventions de message
-
-Maintenez la clarté dans l'historique des versions en utilisant des messages de commit informatifs. Consultez la [convention de nom de commit avancée](https://cbea.ms/git-commit/) pour des indications claires sur le type de modification.
-
-### Exemple de convention de nom de commit avancée
-Cette convention n'est pas obligatoire, mais conseillée.
-- **work** : Pour des modifications, développement général du projet
-- **fix** : Pour une correction de bogue
-- **docs** : Pour une mise à jour de la documentation
-- **style** : Pour des modifications mineures n'affectant pas la logique du code
-- **clean** : Pour les modification mineures qui affectent l'organisation du répertoire
-
-### Contre indication
-<img src="https://cbea.ms/content/images/size/w2000/2021/01/git_commit_2x.png" width=30%>
-
-## Utilisation des Branches
-
-### Branche principale (Default ou Main)
-
-La branche principale est la version par défaut la plus à jour de la dernière version déployée. Dans un monde idéale, on ne travaille pas directement dans la branche principale.
-
-### Branches de développement
-Une nouvelle branche est ajoutée au projet pour ajouter des fonctionnalités au projet, lorsque les modifications sont complétés, cette branche est fusionnée à la branche principale ou devient celle par défaut.
-
-#### Note sur les branches
-Si une branche est ouverte et qu'elle n'est plus utilisée ou deviens obsolète. Il est important de fermer cette branches en la supprimant et créer un tag pour retrouver la version si jugé nécéssaire. Lorsqu'une une branche est supprimée, cela conserve les commits. Il est donc possible de retrouver ces commits à partir du tags créé. La fermeture des branches obsolètes dans un référentiel de versionnement est une pratique cruciale pour maintenir la clarté et l'ordre. En éliminant les branches qui ne sont plus nécessaires, cette approche contribue à éviter toute confusion, offrant ainsi une vue plus nette de l'historique des modifications.
-
-
-
-<img src="images/gitflow.png" alt="Gitflow workflow" style="zoom:67%;" />
-
-​		*source: https://buddy.works/blog/5-types-of-git-workflows*
-
-
-
-## Tags
-
-Utilisez des tags pour marquer des jalons importants du projet. Par exemple le nom d'une version stable (Ex: V2C, V3C-Commande, V2B-PreProduction)
-
-## Releases (Version stables du projet)
-
-Associez les releases à des tags pour définir clairement les versions déployées (ex: V1A, V1B, V2B). Documentez les changements dans la description, tel que la liste des nouvelles fonctionnalités. Les release sont des versions du projets du projet qui sont stables, par exemple pour les PCB, il se trouve les fichiers de production prêt à commander sur JLCPCB pour une version donnée.
-
-![img](images\295970020-6538580e-4e94-4791-84b3-db5176036e20.png)
-
-
-## Principes de base
-
-Organisez les répertoires de manière concise et organisée. Nommez clairement vos branches, vos nom de commit et les nom de répertoires. Ajoutez une description aux répertories. Faites des release sur les version stables du projet. Travaillez proprement et professionnellement. Demandez de l'aide dès que nécéssaire et assurez-vous de connaître les méthodes professionnelle d'utilisation de git.
-
-## Issues
-
-Utilisez l'onglet "Issues" pour suivre les problèmes et les modifications nécessaires à apporter au projet. Cependant utilisez ClickUp pour la progression globale du projet.
-
-
-# Noms de répertoire
-
-## Préfixes
-
-- TeamAt_H : Hardware 
-- TeamAt_P : Platform
-- TeamAt_L : Librairies
-- TeamAt_B : Basic. codes de base
-- AT- : Assistive Technologies (Suffixe simplifié)
-
-## Suffixes
-
-- -PCB : Fichiers de modélisation de PCB
-- -FW : Micrologiciel embarqué (Firmware)
-- -SW : Logiciel ordinateur
-- -CAD : Fichiers de modélisation 3D
