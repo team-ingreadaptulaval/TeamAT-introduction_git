@@ -308,9 +308,8 @@ La branche principale est la version par défaut la plus à jour de la dernière
 ### Branches de développement
 Une nouvelle branche est ajoutée au projet pour ajouter des fonctionnalités au projet, lorsque les modifications sont complétés, cette branche est fusionnée à la branche principale ou devient celle par défaut.
 
-@Marc-Antoine, je ne suis pas sur de comprendre le paragraphe suivant:
-
-Il est important de fermer les branches obsolètes après utilisation. Lorsqu'une une branche est supprimée, cela conserve les commits. Il est donc possible de retrouver ces commits à partir des tags.
+#### Note sur les branches
+Si une branche est ouverte et qu'elle n'est plus utilisée ou deviens obsolète. Il est important de fermer cette branches en la supprimant et créer un tag pour retrouver la version si jugé nécéssaire. Lorsqu'une une branche est supprimée, cela conserve les commits. Il est donc possible de retrouver ces commits à partir du tags créé. La fermeture des branches obsolètes dans un référentiel de versionnement est une pratique cruciale pour maintenir la clarté et l'ordre. En éliminant les branches qui ne sont plus nécessaires, cette approche contribue à éviter toute confusion, offrant ainsi une vue plus nette de l'historique des modifications.
 
 
 
