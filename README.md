@@ -1,5 +1,5 @@
 # Introduction pour l'Utilisation de Git par l'équipe TeamAT
-Introduction et Guide de bonnes pratiques.
+Introduction et Guide de bonnes pratiques. N'hésitez pas à demander assistance au membres TeamAT pour toute clari
 
 # Introduction à Git
 
@@ -58,7 +58,7 @@ Il existes plusieurs interfaces sans lignes de commande comme GitHub Desktop ou 
 
 # Utilisation de Git 
 
-#### Aperçu du flux de travail avec l'utilisation de Git
+## Aperçu du flux de travail avec l'utilisation de Git
 
 Le flux de travail dans Git suit généralement les étapes suivantes :
 
@@ -78,14 +78,18 @@ Le flux de travail dans Git suit généralement les étapes suivantes :
 
 8. **Envoi des Modifications (Push):** Envoyer les modifications locales vers le dépôt partagé pour que d'autres collaborateurs puissent les récupérer.
 
+9. **Étiquettes (Tag):** Attribuer un nom à un commit correspondant à un jalon important. (V1.1.2-test, V2-test_HMI, etc.) 
+
+10. **Déploiement (Release):**  Publier une version du projet stable. Le release se réfère à un tag. (V1.1, V3.4.5, etc.)
+
 Ce flux de travail permet une collaboration efficace, le suivi des modifications et la gestion des versions dans le développement de logiciels.
 
 
-# Bonnes pratique
+#### Bonnes pratique
 
 Organisez les répertoires de manière concise et organisée. Nommez clairement vos branches, vos nom de commit et les nom de répertoires. Ajoutez une description aux répertories. Faites des release sur les version stables du projet. Travaillez proprement et professionnellement. Demandez de l'aide dès que nécéssaire et assurez-vous de connaître les méthodes professionnelle d'utilisation de git.
 
-## Conventions de message
+### Conventions de message
 
 Maintenez la clarté dans l'historique des versions en utilisant des messages de commit informatifs. Consultez la [convention de nom de commit avancée](https://cbea.ms/git-commit/) pour des indications claires sur le type de modification.
 
@@ -100,13 +104,13 @@ Cette convention n'est pas obligatoire, mais conseillée.
 ### Contre indication
 <img src="https://cbea.ms/content/images/size/w2000/2021/01/git_commit_2x.png" width=30%>
 
-## Utilisation des Branches
+### Utilisation des Branches
 
-### Branche principale (Default ou Main)
+#### Branche principale (Default ou Main)
 
 La branche principale est la version par défaut la plus à jour de la dernière version déployée. Dans un monde idéale, on ne travaille pas directement dans la branche principale.
 
-### Branches de développement
+#### Branches de développement
 Une nouvelle branche est ajoutée au projet pour ajouter des fonctionnalités au projet, lorsque les modifications sont complétés, cette branche est fusionnée à la branche principale ou devient celle par défaut.
 
 #### Note sur les branches inutilisés
@@ -119,28 +123,32 @@ Fermez vos propres branches inutilisés et obsolètes en les supprimant. Par con
 
 
 
-## Tags (Ensembles des jalons du projet)
+### Tags (Ensembles des jalons du projet)
 
 Utilisez des tags pour marquer des jalons importants du projet. Par exemple le nom d'une version stable (Ex: V2C, V3C-Commande, V2B-PreProduction)
 
-## Releases (Version stables du projet, référence à un tag)
+### Releases (Version stables du projet, référence à un tag)
 
 Associez les releases à des tags pour définir clairement les versions déployées (ex: V1A, V1B, V2B). Documentez les changements dans la description, tel que la liste des nouvelles fonctionnalités. Les release sont des versions du projets du projet qui sont stables, par exemple pour les PCB, il se trouve les fichiers de production prêt à commander sur JLCPCB pour une version donnée.
 
 ![img](images\295970020-6538580e-4e94-4791-84b3-db5176036e20.png)
 
 <img src="https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/8ab0a03f-31a2-4640-a71a-f1ee05e2e9ea" width='80%'>
+​*Les releases sont des version de commits stables. En fonction du type de projet, ils incluent des les fichiers de production, les fichiers binaire, les exécutables, les STL, etc.*
+
 <img src="https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/515af705-16bf-4e04-b235-2fb8a1ef5f43" width='50%'>
+*Chaque release inclus une description des nouveautés de la version déployée.*
 
 
-## Issues
+
+### Issues
 
 Utilisez l'onglet "Issues" pour suivre les problèmes et les modifications nécessaires à apporter au projet. Cependant utilisez ClickUp pour la progression globale du projet.
 
 
-# Noms de répertoire
+## Noms de répertoire
 
-## Préfixes
+### Préfixes
 
 - TeamAt_H : Hardware 
 - TeamAt_P : Platform
@@ -148,7 +156,7 @@ Utilisez l'onglet "Issues" pour suivre les problèmes et les modifications néce
 - TeamAt_B : Basic. codes de base
 - AT- : Assistive Technologies (Suffixe simplifié)
 
-## Suffixes
+### Suffixes
 
 - -PCB : Fichiers de modélisation de PCB
 - -FW : Micrologiciel embarqué (Firmware)
