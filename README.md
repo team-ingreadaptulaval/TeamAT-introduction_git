@@ -1,5 +1,5 @@
 # Introduction pour l'Utilisation de Git par l'équipe TeamAT
-Introduction et Guide de bonnes pratiques. N'hésitez pas à demander assistance au membres TeamAT pour toute clari
+Introduction et Guide de bonnes pratiques. N'hésitez pas à demander assistance au membres TeamAT. Pour toute clarification, se référer aux auteurs du répertoire.
 
 # Introduction à Git
 
