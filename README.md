@@ -133,11 +133,13 @@ Utilisez des tags pour marquer des jalons importants du projet. Par exemple le n
 
 Associez les releases à des tags pour définir clairement les versions déployées (ex: V1A, V1B, V2B). Documentez les changements dans la description, tel que la liste des nouvelles fonctionnalités. Les release sont des versions du projets du projet qui sont stables, par exemple pour les PCB, il se trouve les fichiers de production prêt à commander sur JLCPCB pour une version donnée.
 
-![img](images\295970020-6538580e-4e94-4791-84b3-db5176036e20.png)
+
+
+![img](/images/295970020-6538580e-4e94-4791-84b3-db5176036e20.png)
 
 <img src="https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/8ab0a03f-31a2-4640-a71a-f1ee05e2e9ea" width='80%'>.
 
-​*Les releases sont des version de commits stables. En fonction du type de projet, ils incluent des les fichiers de production, les fichiers binaire, les exécutables, les STL, etc.*
+*Les releases sont des version de commits stables. En fonction du type de projet, ils incluent des les fichiers de production, les fichiers binaire, les exécutables, les STL, etc.*
 
 <img src="https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/515af705-16bf-4e04-b235-2fb8a1ef5f43" width='50%'>
 
@@ -357,5 +359,4 @@ https://www.atlassian.com/fr/git/tutorials/using-branches/git-checkout
 #### Merge
 
 https://www.atlassian.com/fr/git/tutorials/using-branches/git-merge
-
 
