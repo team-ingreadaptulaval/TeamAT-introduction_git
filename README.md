@@ -137,7 +137,9 @@ Associez les releases à des tags pour définir clairement les versions déploy�
 
 ![img](/images/295970020-6538580e-4e94-4791-84b3-db5176036e20.png)
 
-<img src="https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/8ab0a03f-31a2-4640-a71a-f1ee05e2e9ea" width='80%'>.
+
+
+<img src="/images/302436697-8ab0a03f-31a2-4640-a71a-f1ee05e2e9ea.png" width='80%'>.
 
 *Les releases sont des version de commits stables. En fonction du type de projet, ils incluent des les fichiers de production, les fichiers binaire, les exécutables, les STL, etc.*
 
