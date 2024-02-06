@@ -118,8 +118,7 @@ Une nouvelle branche est ajoutée au projet pour ajouter des fonctionnalités au
 #### Note sur les branches inutilisés
 Fermez vos propres branches inutilisés et obsolètes en les supprimant. Par contre créez un tag pour conserver la version si jugé nécéssaire. La suppression de la branche conserve les commits, facilitant la récupération à partir du tag. Cette pratique maintient la clarté en éliminant les branches inutiles. Il peut arriver que le développement dans une branche diverge à des fins de tests. Par contre il faut éviter de les conserver pour rien.
 
-
-<img src="images/gitflow.png" alt="Gitflow workflow" style="zoom:67%;" />
+<img src="images/gitflow.png"  width="60%;" />
 
 ​		*source: https://buddy.works/blog/5-types-of-git-workflows*
 
@@ -133,17 +132,15 @@ Utilisez des tags pour marquer des jalons importants du projet. Par exemple le n
 
 Associez les releases à des tags pour définir clairement les versions déployées (ex: V1A, V1B, V2B). Documentez les changements dans la description, tel que la liste des nouvelles fonctionnalités. Les release sont des versions du projets du projet qui sont stables, par exemple pour les PCB, il se trouve les fichiers de production prêt à commander sur JLCPCB pour une version donnée.
 
-
-
-![img](/images/295970020-6538580e-4e94-4791-84b3-db5176036e20.png)
+<img src="/images/295970020-6538580e-4e94-4791-84b3-db5176036e20.png" width='40%'>
 
 
 
-<img src="/images/302436697-8ab0a03f-31a2-4640-a71a-f1ee05e2e9ea.png" width='80%'>.
+<img src="/images/302436697-8ab0a03f-31a2-4640-a71a-f1ee05e2e9ea.png" width='80%'>
 
 *Les releases sont des version de commits stables. En fonction du type de projet, ils incluent des les fichiers de production, les fichiers binaire, les exécutables, les STL, etc.*
 
-<img src="https://github.com/team-ingreadaptulaval/TeamAT-introduction_git/assets/46634707/515af705-16bf-4e04-b235-2fb8a1ef5f43" width='50%'>
+<img src="/images/302436229-515af705-16bf-4e04-b235-2fb8a1ef5f43.png" width='50%'>
 
 *Chaque release inclus une description des nouveautés de la version déployée.*
 
@@ -174,7 +171,7 @@ Utilisez l'onglet "Issues" pour suivre les problèmes et les modifications néce
 
 Voici un petit aide-mémoire / récapitulatif du flux de travail GIT dans une utilisation normale avec tortoise.
 
-​                                                        <img src="images\image-20240205131023053.png" alt="image-20240205131023053" style="zoom:67%;" />                           
+​                                                        <img src="images/image-20240205131023053.png"  width="40%" />                           
 
 ​          
 
@@ -184,19 +181,21 @@ Pour cloner un dépôt, nous avons de besoins de l'adresse de ce dépot. Voiçi 
 
    1. Dans le dépôt GitHub, vous pouvez cliquer sur le bouton Code puis copier l’adresse inscrite.
 
-      <img src="images\image-20240205110731875.png" alt="image-20240205110731875" style="zoom:50%;" />
+      <img src="images/image-20240205110731875.png" width="60%" />
 
       ​	
 
       2. Dans l’explorateur Windows, à l’endroit où vous désirez avoir le projet, faire un clic droit puis choisir Git clone… Un fenêtre TortoiseGit s'ouvrira.
 
-         <img src="images\image-20240205111124103.png" alt="image-20240205111124103" style="zoom:67%;" />
+         <img src="images/image-20240205111124103.png"  width="40%" />
 
          **Note:** Dans Windows 11, il est possible que vous deviez cliquer **"Show More Options"** ou tenir shit en cliquant pour voir tous les options.
 
          3. Entrez l’adresse que vous avez copié à l’étape 1 puis fait ok
 
-            ![image-20240205112240934](images\image-20240205112240934.png)
+            <img src="images/image-20240205112240934.png"  width="50%" />
+
+            
 
             **Note :** La première fois que vous clonerez un dépôt GitHub, on vous demandera votre nom d’usager et mot de passe. C’est le même que pour accéder au site.
 
@@ -206,14 +205,16 @@ Pour cloner un dépôt, nous avons de besoins de l'adresse de ce dépot. Voiçi 
 
          4. Si tout a fonctionné, vous aurez un message comme celui-ci
 
-            ![image-20240205112621091](images\image-20240205112621091.png)
+            <img src="images/image-20240205112621091.png"  width="50%" />
+
+            
 
             5. Le projet sera donc maintenant sur votre ordinateur et sera accessible comme tout dossier normal, à la différence que les fichiers auront une petite icône vous indiquant leur statut GIT.
 
-               <img src="images\image-20240205112704661.png" alt="image-20240205112704661" style="zoom:67%;" />
-
+               <img src="images/image-20240205112704661.png" width="40%" />
+         
          Votre projet est maintenant cloné et prêt à être utilisé et modifié.
-
+         
          **Note :** Pour un dépôt fraichement créé sur Github, le processus sera le même mais le dossier sera vide. Vous verrez comment ajouter des fichiers dans les prochaines étapes.
 
 ### Ajouter (add)
@@ -228,11 +229,11 @@ La fonction Add permet d’ajouter un fichier à un projet, plus précisément d
 
 2. Ajouter le fichier à Git avec un clic droit
 
- 	<img src="images\image-20240205113135201.png" alt="image-20240205113135201" style="zoom:90%;" />
+   <img src="images/image-20240205113135201.png"  width="50%" />
 
 3. Faire ok (Le commit sera expliqué plus loin) 
 
-   <img src="images\image-20240205113412293.png" alt="image-20240205113412293" style="zoom:67%;" />
+   <img src="images/image-20240205113412293.png" width="60%" />
 
  
 
@@ -240,25 +241,23 @@ La fonction Add permet d’ajouter un fichier à un projet, plus précisément d
 
 Premièrement, on peut savoir qu’un projet a été modifié et qu’il y a des modifications à sauvegarder en se basant sur l’icône du dossier du projet.
 
-​                               ![image-20240205125827698](images\image-20240205125827698.png)
+<img src="images/image-20240205125827698.png" width="40%" />
 
 **Note :** Si vous faites la commande commit mais que le code n’a pas changé, git vous indiquera qu’il n’y a pas de changement et vous ne pourrai pas faire de commit.
 
 1. Faire un clic droit sur le dossier puis choisir l’option commit…
 
-   ![image-20240205125915877](images\image-20240205125915877.png)
+   <img src="images/image-20240205125915877.png" width="40%" />
 
  
 
 2. Ajouter du détail sur les modifications apportées
 
-   
-
- ![image-20240205125935836](images\image-20240205125935836.png)
+   <img src="images/image-20240205125935836.png" width="40%" />
 
 3. Faire un clic sur commit, si tout a fonctionné vous aurez un message similaire.
 
- ![image-20240205130036198](images\image-20240205130036198.png)
+<img src="images/image-20240205130036198.png" width="40%" />
 
 
 
@@ -278,19 +277,21 @@ La fonction Pull interroge le dépôt principal et importe toutes les modificati
 
 1. Clic droit sur le dossier puis TortoiseGit>pull
 
-​          ![image-20240205130352488](images\image-20240205130352488.png)                     
+   
 
- 
+   <img src="images/image-20240205130352488.png" width="40%" />
+
+   
 
 2. Pour l’instant simplement faire ok. Nous couvrirons les branches « branch » plus tard 
 
- <img src="images\image-20240205130413363.png" alt="image-20240205130413363" style="zoom:80%;" />
+ <img src="images/image-20240205130413363.png" width="50%" />
 
  
 
 **Note :** Si le dépôt distant est vite (vous venez de créer le dépôt, aucun push de fait) vous aurez cette erreur 
 
- ![image-20240205130509044](images\image-20240205130509044.png)
+<img src="images/image-20240205130509044.png" width="40%" />
 
 **Note :**
 
@@ -304,17 +305,19 @@ La command push va prendre notre dépôt local et pousser les modifications qui 
 
 1. TortoiseGit > push
 
-​                               <img src="images\image-20240205130740575.png" alt="image-20240205130740575" style="zoom:67%;" />
+   ​                               <img src="images/image-20240205130740575.png" width="50%" />
 
  
 
 2. Faire ok pour l’instant. Vous avez d’autres options qui pourront être utile plus tard mais nous ne nous soucierons pas de ces options pour l’instant.
 
- ![image-20240205130811300](images\image-20240205130811300.png)
+   <img src="images/image-20240205130811300.png" width="50%" />
 
 3. Si tout a fonctionné vous aurez ce résultat
 
- ![image-20240205130902434](images\image-20240205130902434.png)
+   <img src="images/image-20240205130902434.png" width="50%" />
+
+
 
 ## Autres fonctionnalités de base  
 
@@ -330,11 +333,13 @@ Sert à visualiser les différences entre les fichier actuels et l’avant-derni
 
 Permet de voir et naviguer l’historique des modifications
 
-![image-20240205131212435](images\image-20240205131212435.png)                                
+<img src="images/image-20240205131212435.png" width="50%" />
+
+  
 
 Voici plusieurs options qui sont possible à partir du log
 
- ![image-20240205131231335](images\image-20240205131231335.png)
+<img src="images/image-20240205131231335.png" width="40%" />
 
 ### Revert
 
