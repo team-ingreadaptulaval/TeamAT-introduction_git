@@ -34,8 +34,6 @@ Git est donc un outil essentiel pour la collaboration efficace, le partage de co
 
 **Note:** Il existe deux façon interagir avec Git, avec des lignes de commandes ou avec des interfaces graphiques.  Les interfaces graphiques sont plus simple à utiliser alors ne soyex pas intimidés par les vidéos suivantes, concentrez vous sur les concept, vous n'aurais pas à retenir toutes les commandes manuelles. :)
 
-
-
 - Comprendre Git (1/18) : Qu'est ce que git ? [ici](https://youtu.be/rP3T0Ee6pLU?si=xdtMBqLy2W-IfoA9)
 - Pour une introduction, en 100 seconde( anglais) [ici](https://www.youtube.com/watch?v=hwP7WQkmECE).
 - Pour une compréhension approfondie, en 12 minutes [ici](https://www.youtube.com/watch?v=HkdAHXoRtos).
@@ -160,10 +158,12 @@ Utilisez l'onglet "Issues" pour suivre les problèmes et les modifications néce
 
 ### Suffixes
 
-- -PCB : Fichiers de modélisation de PCB
-- -FW : Micrologiciel embarqué (Firmware)
-- -SW : Logiciel ordinateur
-- -CAD : Fichiers de modélisation 3D
+- PCB : Fichiers de modélisation de PCB
+- FW : Micrologiciel embarqué (Firmware)
+- SW : Logiciel ordinateur
+- CAD : Fichiers de modélisation 3D
+- PR : Projets
+- ASY : Assemblages
 
 # Mise en pratique - Guide d'introduction à Tortoise
 
