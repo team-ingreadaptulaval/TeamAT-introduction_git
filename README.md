@@ -15,6 +15,39 @@ De plus, Git facilite le **travail simultané** sur un projet en permettant à p
 
 Git est donc un outil essentiel pour la collaboration efficace, le partage de code et la préservation de l'intégrité du travail d'équipe.
 
+
+
+## Pourquoi utiliser GIT
+
+Voici quelques raisons clés pour lesquelles nous avons décidé d’utiliser GIT. Il existe d’autres raisons et avantages, mais celles-ci sont les principales pour nous.
+
+- Pour suivre les modifications faites à un code
+- Permet de comparer les différentes versions de code. 
+- Facilite le déverminage. La possibilité de comparer deux codes facilite l’identification de bug lorsque notre nouveau code de fonctionne pas.
+- Permet de mettre du commentaire sur les versions pour expliquer ce qu’on a fait.
+- Pour savoir qui a fait quelle modification
+- Pour pouvoir faire des « backups » de son code plus intelligents que de simples copies.
+- Pour pouvoir collaborer sur un même code 
+- Pour pouvoir partager plus facilement nos codes
+
+On peut penser à un jeu vidéo lorsqu’on enregistre notre partie. On peut avoir plusieurs parties sauvegarder et lorsqu’on charge ces parties, on retourne exactement à l’état où on était lors de l’enregistrement. On peut donc  facilement sauter d’une version à l’autres sans avoir plusieurs copies Cela nous permet également des tester des codes sans avoir peur de tout perdre 
+
+Un des plus grandes forces de GIT est la possibilité de travailler sur un même ficher en parallèle puis de faire un « merge » automatique des codes. Imaginez que vous travaillez sur un fichier et que vous devez modifier une partie et qu’un de vos collègues doit modifier une autre partie du même fichier. 
+
+**Méthode traditionnelle :** 
+
+Vous faite une copie locale du projet puis vous modifiez le fichier de votre côté et l’autre personne aurait fait la même chose. 
+
+**Cas 1** : Vous copiez votre fichier à jour sur le réseau puis l’autre personne aurait fait la même chose. La version finale du projet correspond à la copie locale qui a été copié en dernier et votre travail est perdu.
+
+**Cas 2** : assumant que vous avez une bonne communication, quand vous avez fini vos modifications vous communiquez avec l’autre personne, travaillez ensemble pour merger manuellement les codes puis copier la version finale sur le réseau.
+
+**Cas 3** : Le projet devient 2 projets ou versions différentes qui existe en même temps.
+
+​                **Méthode Git :**
+
+Chaque personne clone le projet principal sur son ordinateur et fait ses modifications. Ensuite, les modifications sont synchronisées puis poussées sur le réseau et le « merge » est fait par git de façon automatique.  
+
 ### Comprendre les concepts de base
 
 #### Le langage
